@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Question Form</title>
+  <link rel="stylesheet" type="text/css" href="CSS\style.css">
+</head>
+
+  <body>
+
+<table>
+  <tr>
+    <td><img src="IMG\OnlineShop.jpg" height="100" width="150"></td>
+    <td><h1>Online Shopping<h1></td>
+  </tr>
+</table>
+
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="contact.html">Contact</a> |
+  <a href="question.html">Question?</a> |
+  <a href="https://www.facebook.com/">Facebook</a> |
+</nav>
+
+<style>
+  input: invalid {
+    border: 2px dashed red;
+  }
+
+  input: valid {
+    border: 2px solid black;
+  }
+
+  textarea: invalid {
+    border: 2px dashed red;
+  }
+
+  textarea: valid{
+    border: 2px solid black;
+  }
+</style>
+
+  <body>
+    <p>How can we help you?<p>
+
+    <form> <fieldset>
+
+    <label>Name:<label>
+    <input type="text" maxlength="4" minlength="3" required></br></br>
+
+    <select id="simple" name="simple" required>
+      <option selected>Topic</option>
+      <option>My Account</option>
+      <option>Data Privacy</option>
+      <option>Payment</option>
+      <option>Shipping and Delivery</option>
+      <option>Return</option>
+    </select></br></br>
+
+    <label>Question:</label><br/>
+    <textarea cols="40" rows="4" required></textarea></br></br>
+
+    <label>Phone Number: +60</label>
+    <input type="number" maxlength="6" minlength="6" required></br></br>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+
+    </fieldset> </form>
+  </body>
+</html>
