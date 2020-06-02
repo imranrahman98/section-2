@@ -3,7 +3,6 @@
 }
 
 body {
-  color: blue;
   background-color: #E6E6FA;
   border: 1px solid black;
 }
@@ -22,6 +21,19 @@ h2 {
   border: 3px dashed blue;
 }
 
-#IDselector {
-  background-color: #591970;
+.table2{
+  border-collapse: collapse;
+  border: 2px solid rgb(190,190,190);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: blue;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th{
+  background-color: rgb(235,235,235);
 }
